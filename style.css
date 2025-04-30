@@ -268,7 +268,7 @@ footer p {
 
   .memories-section {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   
   .heart-map img {
@@ -279,5 +279,16 @@ footer p {
     animation: fadeIn 2s ease;
   }
   
-
+  #message {
+    font-size: 48px; /* Masaüstü görünüm */
+  }
+  
+  /* 768px altı yani telefonlar için */
+  @media screen and (max-width: 768px) {
+    #message {
+      font-size: 28px; /* Telefonlar için daha küçük */
+      text-align: center; /* Ortalansın istersen */
+      padding: 0 10px;    /* Kenarlardan taşmasın diye */
+    }
+  }
 
