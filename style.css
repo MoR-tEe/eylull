@@ -325,13 +325,7 @@ body {
     background-color: #f9f9f9;
   }
   
-  h1 {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    margin: 0;
-  }
+ 
   
   /* Üstteki büyük galeri */
   .gallery {
@@ -406,16 +400,6 @@ body {
     }
   }
 
-  .hearts {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    pointer-events: none;
-    z-index: 999;
-  }
-  
   .heart {
     position: absolute;
     bottom: 0;
